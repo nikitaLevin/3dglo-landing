@@ -22,13 +22,13 @@ const sendForm = (form) => {
                 }
                 statusMessage.textContent = successMessage;
                 form.querySelectorAll('input').forEach(input => input.value = '');
-                setTimeout(statusMessage.remove(), 5000);
+                setTimeout(() => statusMessage.remove(), 5000);
             })
             .catch((error) => {
                 statusMessage.textContent = errorMessage;
                 console.error(error);
                 form.querySelectorAll('input').forEach(input => input.value = '');
-                setTimeout(statusMessage.remove(), 5000);
+                setTimeout(() => statusMessage.remove(), 5000);
             });
     });
 

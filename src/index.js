@@ -13,8 +13,8 @@ import sendForm from './modules/sendForm';
 
 
 
-//Timer
-countTimer('27 february 2025');
+// Timer
+countTimer('April 10, 2026');
 
 //Menu
 toggleMenu();
