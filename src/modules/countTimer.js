@@ -11,7 +11,6 @@ function countTimer(deadline) {
             minutes = Math.floor((timeRemaining / 60) % 60),
             hours = Math.floor(timeRemaining / 60 / 60);
 
-        console.log(timeRemaining, hours, minutes, seconds);
         return { timeRemaining, hours, minutes, seconds };
     }
 

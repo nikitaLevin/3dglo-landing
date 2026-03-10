@@ -24,6 +24,3 @@ npm run watch
 
 ### Production build
 npm run build
-
-## Project Status
-🚧 In progress — form backend connection coming soon

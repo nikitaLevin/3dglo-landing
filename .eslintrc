@@ -3,7 +3,7 @@
     "browser": true,
     "es6": true,
     "node": false,
-    "jquery": true // Добавлено для jQuery
+    "jquery": true
   },
   "extends": "eslint:recommended",
   "parserOptions": {
@@ -31,12 +31,12 @@
       "error",
       "always"
     ],
-    "camelcase": "warn", // Изменено на "warn"
+    "camelcase": "warn",
     "eqeqeq": [
       "error",
       "always"
     ],
-    "strict": "off", // Изменено на "off", strict mode обычно настраивается отдельно
+    "strict": "off",
     "brace-style": [
       "error",
       "1tbs",
@@ -106,12 +106,12 @@
     "new-parens": [
       "error"
     ],
-    "no-trailing-spaces": "warn", // Изменено на "warn"
+    "no-trailing-spaces": "warn",
     "no-unneeded-ternary": [
       "error"
     ],
-    "no-unused-vars": "warn", // Добавлено правило для неиспользуемых переменных
-    "no-undef": "warn", // Добавлено правило для необъявленных переменных
+    "no-unused-vars": "warn",
+    "no-undef": "warn",
     "no-whitespace-before-property": [
       "error"
     ],
@@ -127,7 +127,7 @@
       "error",
       "after"
     ],
-    "quotes": ["warn", "single"], // Добавлено правило для кавычек
+    "quotes": ["warn", "single"],
     "semi-spacing": [
       "error",
       {
