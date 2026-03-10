@@ -278,8 +278,8 @@ main header .main-header {
 }
 
 main .timer {
-    margin-top: 3rem;
-    margin-bottom: 6rem
+    margin-top: 2rem;
+    margin-bottom: 3rem
 }
 
 main .timer-action,
@@ -288,11 +288,11 @@ main .timer-title {
 }
 
 main .timer-title {
-    font-size: 2.2rem
+    font-size: 1.8rem
 }
 
 main .timer-action {
-    margin-top: 3rem
+    margin-top: 1.5rem
 }
 
 main .timer-numbers {
