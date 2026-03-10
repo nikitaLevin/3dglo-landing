@@ -221,6 +221,7 @@ body button:hover {
 main {
     padding-top: 1rem;
     padding-bottom: 2.6rem;
+    min-height: 100vh;
     background: url(../images/main-bg.jpg) center/cover no-repeat fixed;
     color: #fff
 }
