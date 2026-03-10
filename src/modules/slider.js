@@ -48,15 +48,11 @@ const slider = () => {
         prevSlide(dots, currentSlide, 'dot-active');
 
         if (target.matches('#arrow-right')) {
-            prevSlide(slide, currentSlide, 'portfolio-item-active');
-            prevSlide(dots, currentSlide, 'dot-active');
             currentSlide++;
             if (currentSlide >= slide.length) {
                 currentSlide = 0;
             }
         } else if (target.matches('#arrow-left')) {
-            prevSlide(slide, currentSlide, 'portfolio-item-active');
-            prevSlide(dots, currentSlide, 'dot-active');
             currentSlide--;
             if (currentSlide < 0) {
                 currentSlide = slide.length - 1;

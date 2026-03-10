@@ -13,7 +13,6 @@ const calc = (price) => {
         const typeValue = calcType.options[calcType.selectedIndex].value,
             squareValue = +calcSquare.value;
 
-        console.log(typeValue);
         if (calcCount.value > 1) {
             countValue += (calcCount.value - 1) / 10;
         }
